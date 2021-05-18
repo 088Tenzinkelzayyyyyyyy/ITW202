@@ -1,6 +1,7 @@
 package com.example.todo_13;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         donut=findViewById(R.id.donut_des);
         icecream=findViewById(R.id.icecream_des);
         froyo=findViewById(R.id.froyo_des);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
 
         FloatingActionButton fab = findViewById(R.id.chart);
@@ -65,6 +68,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
+//    @Override
+    public boolean onCreteOptionMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.menu,menu);
+        return true;
+}
+//@Override
+    public boolean onOp
 
 }

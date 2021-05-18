@@ -15,9 +15,9 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
+    public static final String EXTRA_MEASSAGE = "com.gcit.todo_12.extra.MESSAGE"
     private TextView donut,froyo,sandwich;
     private FloatingActionButton fab;
-    //private ImageView IDonut,Ifroyo,Isandwich;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

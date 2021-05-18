@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_contact"
+        android:orderInCategory="100"
+        android:title="Contact"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_order"
+        android:orderInCategory="10"
+        android:title="Order"
+        app:showAsAction="never"/>
+</menu>

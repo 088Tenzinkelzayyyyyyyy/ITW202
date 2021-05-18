@@ -1,9 +1,8 @@
-package com.example.todo_12;
+package com.example.todo_15_i;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,8 +10,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-
-    public void showDonutOrder(View view) {
     }
 }

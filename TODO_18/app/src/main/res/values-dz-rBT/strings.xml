@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Sports_info">
+        <item>ཐུགས་རྗེ་</item>
+        <item>བསམ་གྱིས་མི་ཁྱབ་ </item>
+        <item>Here is some Basketball news!</item>
+        <item>Here is some Bowling news!</item>
+        <item>Here is some Cycling news!</item>
+        <item>Here is some Golf news!</item>
+        <item>Here is some Running news!</item>
+        <item>Here is some Soccer news!</item>
+        <item>Here is some Swimming news!</item>
+        <item>Here is some Table Tennis news!</item>
+        <item>Here is some Tennis news!</item>
+    </string-array>
+</resources>

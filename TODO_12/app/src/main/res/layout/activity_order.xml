@@ -6,4 +6,189 @@
     android:layout_height="match_parent"
     tools:context=".order">
 
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="238dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.751"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.194" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="237dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="149dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="237dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="order"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:text="Address"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:text="Phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:text="Note"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="159dp"
+        android:layout_height="23dp"
+        android:text="Same day messenger service"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="159dp"
+        android:layout_height="23dp"
+        android:text="Next day ground delivery"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="159dp"
+        android:layout_height="23dp"
+        android:text="Pickup"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="208dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="Choose a delivery method"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
+
+    <RadioGroup
+        android:layout_width="278dp"
+        android:layout_height="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        tools:ignore="MissingConstraints" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="549dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

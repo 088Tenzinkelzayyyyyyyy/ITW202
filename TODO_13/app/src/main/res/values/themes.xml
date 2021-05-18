@@ -13,4 +13,14 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="Theme.TODO_13.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.TODO_13.AppBarOverlay">
+        parent = "ThemeOverlay.AppCompat.Dark.ActionBar"
+    </style>
+    <style name="Theme.TODO_13.PopupOverlay">
+        parent="Theme.Overlay.AppCompat.Light"
+    </style>
 </resources>

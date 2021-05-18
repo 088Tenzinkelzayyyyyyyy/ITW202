@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:padding="20dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,9 +31,10 @@
         android:id="@+id/txtDonut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
         android:layout_marginTop="70dp"
-        android:layout_toEndOf="@+id/donut"
 
+        android:layout_toEndOf="@+id/donut"
         android:fontFamily="cursive"
         android:gravity="center"
         android:text="@string/donut"
@@ -44,17 +46,18 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_below="@+id/donut"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="52dp"
 
         android:onClick="Sandwich"
-        android:src="@drawable/sandwich" />
+        android:src="@drawable/icecream" />
 
     <TextView
         android:id="@+id/textsandwich"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/donut"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="92dp"
         android:layout_toEndOf="@+id/sandwich"
         android:fontFamily="cursive"
         android:gravity="center"
@@ -67,7 +70,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_below="@+id/sandwich"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="57dp"
         android:onClick="Froyo"
         android:src="@drawable/froyo" />
 
@@ -92,7 +95,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="90dp"
         android:onClick="fab"
-        android:src="@drawable/ic_baseline_local_phone_24"
+        android:src="@drawable/ic_baseline_shopping_cart_24"
          />
 
 
