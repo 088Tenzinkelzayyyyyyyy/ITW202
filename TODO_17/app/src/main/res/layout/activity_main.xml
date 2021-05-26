@@ -29,7 +29,8 @@
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:contentDescription="Minus"
-            android:onClick="decreaseScore" />
+            android:onClick="decreaseScore"
+            android:layout_alignParentLeft="true" />
 
         <TextView
             android:id="@+id/score1"
@@ -49,7 +50,8 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:contentDescription="Plus"
-            android:onClick="increaseScore" />
+            android:onClick="increaseScore"
+            android:layout_alignParentRight="true" />
 
 
     </RelativeLayout>
@@ -77,7 +79,8 @@
 
             android:layout_centerVertical="true"
             android:contentDescription="Minus"
-            android:onClick="decreaseScore" />
+            android:onClick="decreaseScore"
+            android:layout_alignParentLeft="true" />
 
         <TextView
             android:id="@+id/score2"
@@ -99,7 +102,8 @@
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:contentDescription="Plus"
-            android:onClick="increaseScore" />
+            android:onClick="increaseScore"
+            android:layout_alignParentRight="true" />
 
     </RelativeLayout>
 
